@@ -1,0 +1,64 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --color-magenta: #a945c7;
+    --color-cyan: #2ea4ac;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #282c34;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 2%;
+    display: inline-block;
+  }
+  
+  img{
+    width: 15%;
+    height: 15%;
+  }
+    
+  .espaciado{
+    margin-left: 10px;
+  }
+  
+    
+  @media only screen and (max-width: 767px) {
+  
+    /*VISTA INFORMACIÓN*/
+    .general{
+      overflow: auto;
+    }
+  
+    .habilidades{
+      padding-top: 30px;
+      padding-bottom: 5px;
+    }
+  
+    .informacion{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .redes{
+      padding-top: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  
+    .sep{
+      padding-left: 1px;
+    }
+  
+    /*VISTA TRADUCTOR*/
+  
+  
+  }
